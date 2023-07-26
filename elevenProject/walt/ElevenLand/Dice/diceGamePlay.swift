@@ -4,22 +4,20 @@ import Foundation
 var diceFee: Int = 1000
 var diceReward: Int = 2000
 
-//컴퓨터 주사위
-func createComputerDice(computerDice: Int) {
+//컴퓨터 랜덤 주사위
+func createComputerDice() -> Int {
     let computerDice: Int = Int.random(in: 1...6)
-    print("자 저보다 높은 숫자를 뽑으면 이기시는겁니다. \n컴퓨터의 숫자는! '\(computerDice)' 입니다!\n")
+    print("자 저보다 높은 숫자를 뽑으면 이기시는겁니다. \n같은 숫자여도 지는거에요!\n컴퓨터의 숫자는! '\(computerDice)' 입니다!\n")
     print("자 이제 주사위 굴리게 굴려라고 입력하세요!\n")
+    return computerDice
 }
 
-//유저 주사위
-func createUserDice(userdice: Int) {
+//유저 램덤 주사위
+func createUserDice() -> Int {
     let userDice: Int = Int.random(in: 1...6)
     print("\n내 주사위: '\(userDice)'")
+    return userDice
 }
-//let userDice: Int = Int.random(in: 1...6)
-//func createUserDice(dice: Int) {
-//    print("\n내 주사위: '\(userDice)'")
-//}
 
 //주사위게임 플레이
 func dicePlay() {
@@ -33,12 +31,10 @@ func dicePlay() {
         print(" --> 참가비 \(diceFee)원을 차감합니다.")
         print("\n 현재 내 잔고: \(myWalt)원")
         print("--------------------------------------------------")
-        let compuerdice = 0
-        createComputerDice(computerDice: compuerdice)
+        let compuerdice = createComputerDice()
         let putDice = readLine()
         if putDice?.isEmpty == false {
-            let userdice = 0
-            createUserDice(userdice: userdice)
+            let userdice = createUserDice()
             if userdice > compuerdice {
                 print("\n축하드립니다. 이기셔서 \(diceReward)원을 드립니다.")
                 myWalt += diceReward
