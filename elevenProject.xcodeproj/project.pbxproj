@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		079266502A7293B400DE7E10 /* loan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0792664D2A7293B400DE7E10 /* loan.swift */; };
 		079266522A7293B400DE7E10 /* wallet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0792664F2A7293B400DE7E10 /* wallet.swift */; };
+		079266542A72994800DE7E10 /* test file.swift in Sources */ = {isa = PBXBuildFile; fileRef = 079266532A72994800DE7E10 /* test file.swift */; };
 		272048042A728F95008776F6 /* cartClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 272048022A728F95008776F6 /* cartClass.swift */; };
 		272048052A728F95008776F6 /* cartFunc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 272048032A728F95008776F6 /* cartFunc.swift */; };
 		B8FDC62B2A71590D008FD9EE /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8FDC62A2A71590D008FD9EE /* main.swift */; };
@@ -49,6 +50,7 @@
 /* Begin PBXFileReference section */
 		0792664D2A7293B400DE7E10 /* loan.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = loan.swift; sourceTree = "<group>"; };
 		0792664F2A7293B400DE7E10 /* wallet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = wallet.swift; sourceTree = "<group>"; };
+		079266532A72994800DE7E10 /* test file.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "test file.swift"; sourceTree = "<group>"; };
 		272048022A728F95008776F6 /* cartClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = cartClass.swift; sourceTree = "<group>"; };
 		272048032A728F95008776F6 /* cartFunc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = cartFunc.swift; sourceTree = "<group>"; };
 		B8FDC6272A71590D008FD9EE /* elevenProject */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = elevenProject; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -116,6 +118,7 @@
 			children = (
 				B8FDC62A2A71590D008FD9EE /* main.swift */,
 				B8FDC6312A71594A008FD9EE /* homeMenu.swift */,
+				079266532A72994800DE7E10 /* test file.swift */,
 				B8FDC6372A715974008FD9EE /* OrderPage */,
 				B8FDC6382A715989008FD9EE /* CartPage */,
 				B8FDC63B2A7159B1008FD9EE /* walt */,
@@ -287,6 +290,7 @@
 				D857EEF42A729630000B235E /* SubwaySandwich.swift in Sources */,
 				B8FDC62B2A71590D008FD9EE /* main.swift in Sources */,
 				079266502A7293B400DE7E10 /* loan.swift in Sources */,
+				079266542A72994800DE7E10 /* test file.swift in Sources */,
 				079266522A7293B400DE7E10 /* wallet.swift in Sources */,
 				B8FDC6322A71594A008FD9EE /* homeMenu.swift in Sources */,
 				D857EEE92A729630000B235E /* printMenuList.swift in Sources */,
