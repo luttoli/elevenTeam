@@ -26,81 +26,48 @@ func printCustomOrder (_ orderNum: Int) {
             
         case 1 :
             if let eggMayoSandwich = menuList[0] as? EggMayo {
-                var showOX = eggMayoSandwich.ox
                 let eggMayoIngredient = eggMayoSandwich.defaultIngredient + eggMayoSandwich.uniqueIngredient
-                
-                for i in eggMayoIngredient {
-                    index += 1
-                    print("  ", index, i, showOX)
-                }
-                print("   0 커스텀 완료하기")
-                print("--------------------- \n" )
+                printIngredientList(eggMayoIngredient,OX:eggMayoSandwich.ox)
                 return
             }
             
-            case 2 :
-                if let bltSandwich = menuList[1] as? BLT {
-                    let bltIngredient = bltSandwich.defaultIngredient + bltSandwich.uniqueIngredient
-                    for i in bltIngredient {
-                        index += 1
-                        print("  ", index, i)
-                    }
-                    print("   0 커스텀 완료하기")
-                    print("--------------------- \n" )
-                    return
-                }
-            case 3 :
-                if let tunaSandwich = menuList[2] as? Tuna {
-                    let tunaIngredient = tunaSandwich.defaultIngredient + tunaSandwich.uniqueIngredient
-                    for i in tunaIngredient {
-                        index += 1
-                        print("  ", index, i)
-                    }
-                    print("   0 커스텀 완료하기")
-                    print("--------------------- \n" )
-                    return
-                }
-            case 4 :
-                if let meatballSandwich = menuList[3] as? Meatball {
-                    let meatballIngredient = meatballSandwich.defaultIngredient + meatballSandwich.uniqueIngredient
-                    for i in meatballIngredient {
-                        index += 1
-                        print("  ", index, i)
-                    }
-                    print("   0 커스텀 완료하기")
-                    print("--------------------- \n" )
-                    return
-                }
-            case 5 :
-                if let turkeySandwich = menuList[4] as? Turkey{
-                    let turkeyIngredient = turkeySandwich.defaultIngredient + turkeySandwich.uniqueIngredient
-                    for i in turkeyIngredient {
-                        index += 1
-                        print("  ", index, i)
-                    }
-                    print("   0 커스텀 완료하기")
-                    print("--------------------- \n" )
-                    return
-                }
-            case 6 :
-                if let hamSandwich = menuList[5] as? Ham {
-                    let hamIngredient = hamSandwich.defaultIngredient + hamSandwich.uniqueIngredient
-                    for i in hamIngredient {
-                        index += 1
-                        print("  ", index, i)
-                        
-                    }
-                    print("\n   0 커스텀 완료하기")
-                    print("--------------------- \n" )
-                    return
-                }
-                
-            default :
+        case 2 :
+            if let bltSandwich = menuList[1] as? BLT {
+                let bltIngredient = bltSandwich.defaultIngredient + bltSandwich.uniqueIngredient
+                printIngredientList(bltIngredient,OX:bltSandwich.ox)
                 return
-                
             }
+        case 3 :
+            if let tunaSandwich = menuList[2] as? Tuna {
+                let tunaIngredient = tunaSandwich.defaultIngredient + tunaSandwich.uniqueIngredient
+                printIngredientList(tunaIngredient,OX:tunaSandwich.ox)
+                return
+            }
+        case 4 :
+            if let meatballSandwich = menuList[3] as? Meatball {
+                let meatballIngredient = meatballSandwich.defaultIngredient + meatballSandwich.uniqueIngredient
+                printIngredientList(meatballIngredient,OX:meatballSandwich.ox)
+                return
+            }
+        case 5 :
+            if let turkeySandwich = menuList[4] as? Turkey{
+                let turkeyIngredient = turkeySandwich.defaultIngredient + turkeySandwich.uniqueIngredient
+                printIngredientList(turkeyIngredient,OX:turkeySandwich.ox)
+                return
+            }
+        case 6 :
+            if let hamSandwich = menuList[5] as? Ham {
+                let hamIngredient = hamSandwich.defaultIngredient + hamSandwich.uniqueIngredient
+                printIngredientList(hamIngredient,OX:hamSandwich.ox)
+                return
+            }
+            
+        default :
+            return
+            
         }
     }
-    
-    
-    
+}
+
+
+

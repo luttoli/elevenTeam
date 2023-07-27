@@ -11,6 +11,7 @@
 		079266522A7293B400DE7E10 /* wallet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0792664F2A7293B400DE7E10 /* wallet.swift */; };
 		272048042A728F95008776F6 /* cartClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 272048022A728F95008776F6 /* cartClass.swift */; };
 		272048052A728F95008776F6 /* cartFunc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 272048032A728F95008776F6 /* cartFunc.swift */; };
+		27924EE32A72AD6500FD07F4 /* custom-order-print.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27924EE22A72AD6500FD07F4 /* custom-order-print.swift */; };
 		B823BCB32A729F94008094F1 /* bankMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = B823BCB12A729F93008094F1 /* bankMenu.swift */; };
 		B823BCB42A729F94008094F1 /* bankPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B823BCB22A729F93008094F1 /* bankPage.swift */; };
 		B823BCC72A729FA1008094F1 /* typingAlbaPlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = B823BCB72A729FA1008094F1 /* typingAlbaPlay.swift */; };
@@ -66,6 +67,7 @@
 		0792664F2A7293B400DE7E10 /* wallet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = wallet.swift; sourceTree = "<group>"; };
 		272048022A728F95008776F6 /* cartClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = cartClass.swift; sourceTree = "<group>"; };
 		272048032A728F95008776F6 /* cartFunc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = cartFunc.swift; sourceTree = "<group>"; };
+		27924EE22A72AD6500FD07F4 /* custom-order-print.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "custom-order-print.swift"; sourceTree = "<group>"; };
 		B823BCB12A729F93008094F1 /* bankMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = bankMenu.swift; sourceTree = "<group>"; };
 		B823BCB22A729F93008094F1 /* bankPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = bankPage.swift; sourceTree = "<group>"; };
 		B823BCB72A729FA1008094F1 /* typingAlbaPlay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = typingAlbaPlay.swift; sourceTree = "<group>"; };
@@ -272,6 +274,7 @@
 			isa = PBXGroup;
 			children = (
 				D857EEDA2A729630000B235E /* custom-order.swift */,
+				27924EE22A72AD6500FD07F4 /* custom-order-print.swift */,
 			);
 			path = "custom-order-page";
 			sourceTree = "<group>";
@@ -363,6 +366,7 @@
 				079266502A7293B400DE7E10 /* loan.swift in Sources */,
 				079266522A7293B400DE7E10 /* wallet.swift in Sources */,
 				B823BCCB2A729FA1008094F1 /* albaPage.swift in Sources */,
+				27924EE32A72AD6500FD07F4 /* custom-order-print.swift in Sources */,
 				D857EEE92A729630000B235E /* printMenuList.swift in Sources */,
 				D857EEF02A729630000B235E /* Ham.swift in Sources */,
 				B823BCC72A729FA1008094F1 /* typingAlbaPlay.swift in Sources */,

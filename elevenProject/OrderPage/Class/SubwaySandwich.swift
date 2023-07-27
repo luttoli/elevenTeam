@@ -12,7 +12,7 @@ class SubwaySandwitch{
     var defaultIngredient : [String] = ["오이", "할라피뇨", "피클", "올리브"]
     var name: String
     var price: Int
-    var ox = "✅"
+    var ox:Character = "✅" //❎
  
     
     init(_ name: String, _ price: Int){
