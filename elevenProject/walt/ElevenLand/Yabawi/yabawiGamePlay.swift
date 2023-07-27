@@ -10,8 +10,6 @@ func createYabawiInt() -> Int {
     return yabawiInt
 }
 
-let yabawiInt = createYabawiInt()
-
 //야바위 게임 진행 함수
 func yabawiPlay() {
     //돈이 없는 경우
@@ -24,6 +22,7 @@ func yabawiPlay() {
         print(" --> 참가비 \(yabawiFee)원을 차감합니다.")
         print("\n 현재 내 잔고: \(myWalt)원")
         print("--------------------------------------------------")
+        let yabawiInt = createYabawiInt()
         print(" -> '1, 2, 3' 중에 하나만 골라서 입력해주세요")
         print(yabawiInt) //테스트
         let putYabawiInt = Int(readLine()!)

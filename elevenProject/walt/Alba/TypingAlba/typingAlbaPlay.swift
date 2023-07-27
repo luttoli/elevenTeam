@@ -11,14 +11,11 @@ extension String {
     }
 }
 
-//랜덤으로 뽑은 문자열
-let typingLv1 = String.createRandomString(length: 3)
-let typingLv2 = String.createRandomString(length: 6)
-let typingLv3 = String.createRandomString(length: 10)
-
 //단계 시작 및 검수하는 함수
 func typingLv1Start() {
     print("--------------------------------------------------")
+    //랜덤으로 뽑은 문자열
+    let typingLv1 = String.createRandomString(length: 3)
     print(typingLv1)
     let typingAlba = readLine()
     if typingLv1 == typingAlba {
@@ -36,6 +33,8 @@ func typingLv1Start() {
 
 func typingLv2Start() {
     print("--------------------------------------------------")
+    //랜덤으로 뽑은 문자열
+    let typingLv2 = String.createRandomString(length: 6)
     print(typingLv2)
     let typingAlba = readLine()
     if typingLv2 == typingAlba {
@@ -53,6 +52,8 @@ func typingLv2Start() {
 
 func typingLv3Start() {
     print("--------------------------------------------------")
+    //랜덤으로 뽑은 문자열
+    let typingLv3 = String.createRandomString(length: 10)
     print(typingLv3)
     let typingAlba = readLine()
     if typingLv3 == typingAlba {
