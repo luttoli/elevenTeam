@@ -47,11 +47,11 @@ func runSubway11Order () {
                 
             case "0":
                 print("주문을 완료합니다.")
+                errorKiosk = true
                 selecthomeMenu()
                 
             default:
                 print("잘못된 입력입니다. 다시 선택해주세요.")
-                errorKiosk = true
                 printMenuList()
                 
             }
