@@ -22,30 +22,30 @@ func createUserDice() -> Int {
 //주사위게임 플레이
 func dicePlay() {
     //돈이 없는 경우
-    if diceFee > myWalt {
+    if diceFee > wallet.money {
         print(" --> 돈 없으면 못해요")
-        print("\n 현재 내 잔고: \(myWalt)원")
+        print("\n 현재 내 잔고: \(wallet.money)원")
         selectbankMenu()
     } else {
-        myWalt -= diceFee
+        wallet.money -= diceFee
         print(" --> 참가비 \(diceFee)원을 차감합니다.")
-        print("\n 현재 내 잔고: \(myWalt)원")
+        print("\n 현재 내 잔고: \(wallet.money)원")
         print("--------------------------------------------------")
         let compuerdice = createComputerDice()
         let putDice = readLine()
         if putDice?.isEmpty == false {
             let userdice = createUserDice()
             if userdice > compuerdice {
-                print("\n축하드립니다. 이기셔서 \(diceReward)원을 드립니다.")
-                myWalt += diceReward
-                print("\n 현재 내 잔고: \(myWalt)원")
+                print("\n축하드립니다. 이겨셔 \(diceReward)원을 드립니다.")
+                wallet.money += diceReward
+                print("\n 현재 내 잔고: \(wallet.money)원")
                 selectelevenlandMenu()
             } else {
                 print(" --> 아깝습니다. 참가비는 착하게 쓰겠습니다~")
                 selectelevenlandMenu()
             }
         } else {
-            print("'굴려' 라고 입력하라 했죠? 아쉽지만 기회 박탈로 돈을 잃으셨습니다. 이전 화면으로 돌아갑니다.")
+            print("'굴려' 라고 입력하라 했죠? 아쉽지만 기회 박탈입니다. 이전 화면으로 돌아갑니다.")
             selectelevenlandMenu()
         }
     }

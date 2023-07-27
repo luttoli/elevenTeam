@@ -230,7 +230,6 @@
 		B8FDC63B2A7159B1008FD9EE /* walt */ = {
 			isa = PBXGroup;
 			children = (
-				0792664C2A7293B400DE7E10 /* 지갑만들기 */,
 				B8FDC63E2A715A01008FD9EE /* Bank */,
 				B823BCB52A729FA1008094F1 /* Alba */,
 				B823BCBC2A729FA1008094F1 /* ElevenLand */,
@@ -243,6 +242,7 @@
 			children = (
 				B823BCB12A729F93008094F1 /* bankMenu.swift */,
 				B823BCB22A729F93008094F1 /* bankPage.swift */,
+				0792664C2A7293B400DE7E10 /* 지갑만들기 */,
 			);
 			path = Bank;
 			sourceTree = "<group>";
