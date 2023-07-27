@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		272048042A728F95008776F6 /* cartClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 272048022A728F95008776F6 /* cartClass.swift */; };
+		272048052A728F95008776F6 /* cartFunc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 272048032A728F95008776F6 /* cartFunc.swift */; };
 		B8FDC62B2A71590D008FD9EE /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8FDC62A2A71590D008FD9EE /* main.swift */; };
 		B8FDC6322A71594A008FD9EE /* homeMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8FDC6312A71594A008FD9EE /* homeMenu.swift */; };
 		B8FDC6342A71595F008FD9EE /* menuOrderPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8FDC6332A71595F008FD9EE /* menuOrderPage.swift */; };
@@ -28,6 +30,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		272048022A728F95008776F6 /* cartClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = cartClass.swift; sourceTree = "<group>"; };
+		272048032A728F95008776F6 /* cartFunc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = cartFunc.swift; sourceTree = "<group>"; };
 		B8FDC6272A71590D008FD9EE /* elevenProject */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = elevenProject; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8FDC62A2A71590D008FD9EE /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		B8FDC6312A71594A008FD9EE /* homeMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = homeMenu.swift; sourceTree = "<group>"; };
@@ -89,6 +93,8 @@
 			isa = PBXGroup;
 			children = (
 				B8FDC6392A7159A8008FD9EE /* cart.swift */,
+				272048022A728F95008776F6 /* cartClass.swift */,
+				272048032A728F95008776F6 /* cartFunc.swift */,
 			);
 			path = CartPage;
 			sourceTree = "<group>";
@@ -188,7 +194,9 @@
 				B8FDC62B2A71590D008FD9EE /* main.swift in Sources */,
 				B8FDC6322A71594A008FD9EE /* homeMenu.swift in Sources */,
 				B8FDC63A2A7159A8008FD9EE /* cart.swift in Sources */,
+				272048042A728F95008776F6 /* cartClass.swift in Sources */,
 				B8FDC6342A71595F008FD9EE /* menuOrderPage.swift in Sources */,
+				272048052A728F95008776F6 /* cartFunc.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
