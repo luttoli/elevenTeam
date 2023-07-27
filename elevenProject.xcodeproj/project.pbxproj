@@ -46,7 +46,6 @@
 		D857EEF42A729630000B235E /* SubwaySandwich.swift in Sources */ = {isa = PBXBuildFile; fileRef = D857EEE32A729630000B235E /* SubwaySandwich.swift */; };
 		D857EEF52A729630000B235E /* Tuna.swift in Sources */ = {isa = PBXBuildFile; fileRef = D857EEE42A729630000B235E /* Tuna.swift */; };
 		D857EEF62A729630000B235E /* BLT.swift in Sources */ = {isa = PBXBuildFile; fileRef = D857EEE52A729630000B235E /* BLT.swift */; };
-		D857EEF72A729630000B235E /* Cart.swift in Sources */ = {isa = PBXBuildFile; fileRef = D857EEE62A729630000B235E /* Cart.swift */; };
 		D857EEF82A729630000B235E /* Wallet.swift in Sources */ = {isa = PBXBuildFile; fileRef = D857EEE72A729630000B235E /* Wallet.swift */; };
 /* End PBXBuildFile section */
 
@@ -103,7 +102,6 @@
 		D857EEE32A729630000B235E /* SubwaySandwich.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubwaySandwich.swift; sourceTree = "<group>"; };
 		D857EEE42A729630000B235E /* Tuna.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tuna.swift; sourceTree = "<group>"; };
 		D857EEE52A729630000B235E /* BLT.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BLT.swift; sourceTree = "<group>"; };
-		D857EEE62A729630000B235E /* Cart.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cart.swift; sourceTree = "<group>"; };
 		D857EEE72A729630000B235E /* Wallet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Wallet.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -289,7 +287,6 @@
 				D857EEE32A729630000B235E /* SubwaySandwich.swift */,
 				D857EEE42A729630000B235E /* Tuna.swift */,
 				D857EEE52A729630000B235E /* BLT.swift */,
-				D857EEE62A729630000B235E /* Cart.swift */,
 				D857EEE72A729630000B235E /* Wallet.swift */,
 			);
 			path = Class;
@@ -358,7 +355,6 @@
 				B823BCCC2A729FA1008094F1 /* elevenLandMenu.swift in Sources */,
 				B8FDC6362A71596D008FD9EE /* customOrderPage.swift in Sources */,
 				B823BCCD2A729FA1008094F1 /* yabawiGamePlay.swift in Sources */,
-				D857EEF72A729630000B235E /* Cart.swift in Sources */,
 				B823BCD92A72A042008094F1 /* HomeMenu.swift in Sources */,
 				B823BCB32A729F94008094F1 /* bankMenu.swift in Sources */,
 				D857EEF42A729630000B235E /* SubwaySandwich.swift in Sources */,

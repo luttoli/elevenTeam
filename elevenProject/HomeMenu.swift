@@ -9,7 +9,7 @@ func selecthomeMenu() {
     switch selectMenu {
     case 1:
         print(" -> 1번 '주문 메뉴'를 선택하셨습니다.")
-        menuOrder()
+        selectMenuList()
     case 2:
         print(" -> 2번 '장바구니'를 선택하셨습니다.")
         selectCartMenu()

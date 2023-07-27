@@ -22,7 +22,7 @@ func selectCartMenu(){
         selectCartMenu()
     case "3":
         print("홈 메뉴로 돌아갑니다.")
-        homeMenu()
+        selecthomeMenu()
         break
     default:
         print("잘못입력했습니다.")
