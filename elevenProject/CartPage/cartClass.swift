@@ -6,12 +6,18 @@ class Cart { // 장바구니
     
     var cartList:[SubwaySandwitch] = [
         EggMayo("Eggmayo",6700),
-        ItalianBMT("ItalianBMT",0),
+        BLT("BLT",0),
         Tuna("Tuna",0),
-        MeatBall("MeatBall",0),
+        Meatball("Meatball",0),
         Turkey("Turkey",0),
         Ham("Ham",0)
     ] //임시방편임
+    
+    var sandwichCart : [String] = []
+    var ingredientCart : [String] = []
+    var cart: [SubwaySandwitch] = []
+    
+    
     
     func addMenu(_ sandwitch:SubwaySandwitch) { // 장바구니 추가
         // 나중에 구매 페이지에서 실행될 메소드
