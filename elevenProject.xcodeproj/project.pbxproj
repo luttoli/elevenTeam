@@ -7,12 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		079266502A7293B400DE7E10 /* loan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0792664D2A7293B400DE7E10 /* loan.swift */; };
+		079266522A7293B400DE7E10 /* wallet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0792664F2A7293B400DE7E10 /* wallet.swift */; };
+		079266542A72994800DE7E10 /* test file.swift in Sources */ = {isa = PBXBuildFile; fileRef = 079266532A72994800DE7E10 /* test file.swift */; };
+		272048042A728F95008776F6 /* cartClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 272048022A728F95008776F6 /* cartClass.swift */; };
+		272048052A728F95008776F6 /* cartFunc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 272048032A728F95008776F6 /* cartFunc.swift */; };
 		B8FDC62B2A71590D008FD9EE /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8FDC62A2A71590D008FD9EE /* main.swift */; };
 		B8FDC6322A71594A008FD9EE /* homeMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8FDC6312A71594A008FD9EE /* homeMenu.swift */; };
 		B8FDC6342A71595F008FD9EE /* menuOrderPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8FDC6332A71595F008FD9EE /* menuOrderPage.swift */; };
 		B8FDC6362A71596D008FD9EE /* customOrderPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8FDC6352A71596D008FD9EE /* customOrderPage.swift */; };
 		B8FDC63A2A7159A8008FD9EE /* cart.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8FDC6392A7159A8008FD9EE /* cart.swift */; };
 		B8FDC63D2A7159EA008FD9EE /* bank.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8FDC63C2A7159EA008FD9EE /* bank.swift */; };
+		D857EEE92A729630000B235E /* printMenuList.swift in Sources */ = {isa = PBXBuildFile; fileRef = D857EED52A729630000B235E /* printMenuList.swift */; };
+		D857EEEA2A729630000B235E /* runSubway11Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = D857EED62A729630000B235E /* runSubway11Order.swift */; };
+		D857EEEB2A729630000B235E /* menu-order.swift in Sources */ = {isa = PBXBuildFile; fileRef = D857EED82A729630000B235E /* menu-order.swift */; };
+		D857EEEC2A729630000B235E /* custom-order.swift in Sources */ = {isa = PBXBuildFile; fileRef = D857EEDA2A729630000B235E /* custom-order.swift */; };
+		D857EEEE2A729630000B235E /* hateIngredient.swift in Sources */ = {isa = PBXBuildFile; fileRef = D857EEDC2A729630000B235E /* hateIngredient.swift */; };
+		D857EEEF2A729630000B235E /* Meatball.swift in Sources */ = {isa = PBXBuildFile; fileRef = D857EEDE2A729630000B235E /* Meatball.swift */; };
+		D857EEF02A729630000B235E /* Ham.swift in Sources */ = {isa = PBXBuildFile; fileRef = D857EEDF2A729630000B235E /* Ham.swift */; };
+		D857EEF12A729630000B235E /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = D857EEE02A729630000B235E /* Data.swift */; };
+		D857EEF22A729630000B235E /* EggMayo.swift in Sources */ = {isa = PBXBuildFile; fileRef = D857EEE12A729630000B235E /* EggMayo.swift */; };
+		D857EEF32A729630000B235E /* Turkey.swift in Sources */ = {isa = PBXBuildFile; fileRef = D857EEE22A729630000B235E /* Turkey.swift */; };
+		D857EEF42A729630000B235E /* SubwaySandwich.swift in Sources */ = {isa = PBXBuildFile; fileRef = D857EEE32A729630000B235E /* SubwaySandwich.swift */; };
+		D857EEF52A729630000B235E /* Tuna.swift in Sources */ = {isa = PBXBuildFile; fileRef = D857EEE42A729630000B235E /* Tuna.swift */; };
+		D857EEF62A729630000B235E /* BLT.swift in Sources */ = {isa = PBXBuildFile; fileRef = D857EEE52A729630000B235E /* BLT.swift */; };
+		D857EEF72A729630000B235E /* Cart.swift in Sources */ = {isa = PBXBuildFile; fileRef = D857EEE62A729630000B235E /* Cart.swift */; };
+		D857EEF82A729630000B235E /* Wallet.swift in Sources */ = {isa = PBXBuildFile; fileRef = D857EEE72A729630000B235E /* Wallet.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +48,11 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		0792664D2A7293B400DE7E10 /* loan.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = loan.swift; sourceTree = "<group>"; };
+		0792664F2A7293B400DE7E10 /* wallet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = wallet.swift; sourceTree = "<group>"; };
+		079266532A72994800DE7E10 /* test file.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "test file.swift"; sourceTree = "<group>"; };
+		272048022A728F95008776F6 /* cartClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = cartClass.swift; sourceTree = "<group>"; };
+		272048032A728F95008776F6 /* cartFunc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = cartFunc.swift; sourceTree = "<group>"; };
 		B8FDC6272A71590D008FD9EE /* elevenProject */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = elevenProject; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8FDC62A2A71590D008FD9EE /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		B8FDC6312A71594A008FD9EE /* homeMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = homeMenu.swift; sourceTree = "<group>"; };
@@ -35,6 +60,21 @@
 		B8FDC6352A71596D008FD9EE /* customOrderPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = customOrderPage.swift; sourceTree = "<group>"; };
 		B8FDC6392A7159A8008FD9EE /* cart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cart.swift; sourceTree = "<group>"; };
 		B8FDC63C2A7159EA008FD9EE /* bank.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bank.swift; sourceTree = "<group>"; };
+		D857EED52A729630000B235E /* printMenuList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = printMenuList.swift; sourceTree = "<group>"; };
+		D857EED62A729630000B235E /* runSubway11Order.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = runSubway11Order.swift; sourceTree = "<group>"; };
+		D857EED82A729630000B235E /* menu-order.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "menu-order.swift"; sourceTree = "<group>"; };
+		D857EEDA2A729630000B235E /* custom-order.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "custom-order.swift"; sourceTree = "<group>"; };
+		D857EEDC2A729630000B235E /* hateIngredient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = hateIngredient.swift; sourceTree = "<group>"; };
+		D857EEDE2A729630000B235E /* Meatball.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Meatball.swift; sourceTree = "<group>"; };
+		D857EEDF2A729630000B235E /* Ham.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Ham.swift; sourceTree = "<group>"; };
+		D857EEE02A729630000B235E /* Data.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		D857EEE12A729630000B235E /* EggMayo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EggMayo.swift; sourceTree = "<group>"; };
+		D857EEE22A729630000B235E /* Turkey.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Turkey.swift; sourceTree = "<group>"; };
+		D857EEE32A729630000B235E /* SubwaySandwich.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubwaySandwich.swift; sourceTree = "<group>"; };
+		D857EEE42A729630000B235E /* Tuna.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tuna.swift; sourceTree = "<group>"; };
+		D857EEE52A729630000B235E /* BLT.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BLT.swift; sourceTree = "<group>"; };
+		D857EEE62A729630000B235E /* Cart.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cart.swift; sourceTree = "<group>"; };
+		D857EEE72A729630000B235E /* Wallet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Wallet.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +88,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0792664C2A7293B400DE7E10 /* 지갑만들기 */ = {
+			isa = PBXGroup;
+			children = (
+				0792664D2A7293B400DE7E10 /* loan.swift */,
+				0792664F2A7293B400DE7E10 /* wallet.swift */,
+			);
+			path = "지갑만들기";
+			sourceTree = "<group>";
+		};
 		B8FDC61E2A71590D008FD9EE = {
 			isa = PBXGroup;
 			children = (
@@ -69,6 +118,7 @@
 			children = (
 				B8FDC62A2A71590D008FD9EE /* main.swift */,
 				B8FDC6312A71594A008FD9EE /* homeMenu.swift */,
+				079266532A72994800DE7E10 /* test file.swift */,
 				B8FDC6372A715974008FD9EE /* OrderPage */,
 				B8FDC6382A715989008FD9EE /* CartPage */,
 				B8FDC63B2A7159B1008FD9EE /* walt */,
@@ -79,6 +129,10 @@
 		B8FDC6372A715974008FD9EE /* OrderPage */ = {
 			isa = PBXGroup;
 			children = (
+				D857EEDD2A729630000B235E /* Class */,
+				D857EED42A729630000B235E /* func */,
+				D857EEDC2A729630000B235E /* hateIngredient.swift */,
+				D857EED72A729630000B235E /* main-memu-page */,
 				B8FDC6332A71595F008FD9EE /* menuOrderPage.swift */,
 				B8FDC6352A71596D008FD9EE /* customOrderPage.swift */,
 			);
@@ -89,6 +143,8 @@
 			isa = PBXGroup;
 			children = (
 				B8FDC6392A7159A8008FD9EE /* cart.swift */,
+				272048022A728F95008776F6 /* cartClass.swift */,
+				272048032A728F95008776F6 /* cartFunc.swift */,
 			);
 			path = CartPage;
 			sourceTree = "<group>";
@@ -106,6 +162,7 @@
 		B8FDC63E2A715A01008FD9EE /* Bank */ = {
 			isa = PBXGroup;
 			children = (
+				0792664C2A7293B400DE7E10 /* 지갑만들기 */,
 				B8FDC63C2A7159EA008FD9EE /* bank.swift */,
 			);
 			path = Bank;
@@ -123,6 +180,49 @@
 			children = (
 			);
 			path = Alba;
+			sourceTree = "<group>";
+		};
+		D857EED42A729630000B235E /* func */ = {
+			isa = PBXGroup;
+			children = (
+				D857EED52A729630000B235E /* printMenuList.swift */,
+				D857EED62A729630000B235E /* runSubway11Order.swift */,
+			);
+			path = func;
+			sourceTree = "<group>";
+		};
+		D857EED72A729630000B235E /* main-memu-page */ = {
+			isa = PBXGroup;
+			children = (
+				D857EED82A729630000B235E /* menu-order.swift */,
+				D857EED92A729630000B235E /* custom-order-page */,
+			);
+			path = "main-memu-page";
+			sourceTree = "<group>";
+		};
+		D857EED92A729630000B235E /* custom-order-page */ = {
+			isa = PBXGroup;
+			children = (
+				D857EEDA2A729630000B235E /* custom-order.swift */,
+			);
+			path = "custom-order-page";
+			sourceTree = "<group>";
+		};
+		D857EEDD2A729630000B235E /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				D857EEDE2A729630000B235E /* Meatball.swift */,
+				D857EEDF2A729630000B235E /* Ham.swift */,
+				D857EEE02A729630000B235E /* Data.swift */,
+				D857EEE12A729630000B235E /* EggMayo.swift */,
+				D857EEE22A729630000B235E /* Turkey.swift */,
+				D857EEE32A729630000B235E /* SubwaySandwich.swift */,
+				D857EEE42A729630000B235E /* Tuna.swift */,
+				D857EEE52A729630000B235E /* BLT.swift */,
+				D857EEE62A729630000B235E /* Cart.swift */,
+				D857EEE72A729630000B235E /* Wallet.swift */,
+			);
+			path = Class;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -183,12 +283,33 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D857EEF82A729630000B235E /* Wallet.swift in Sources */,
 				B8FDC63D2A7159EA008FD9EE /* bank.swift in Sources */,
 				B8FDC6362A71596D008FD9EE /* customOrderPage.swift in Sources */,
+				D857EEF72A729630000B235E /* Cart.swift in Sources */,
+				D857EEF42A729630000B235E /* SubwaySandwich.swift in Sources */,
 				B8FDC62B2A71590D008FD9EE /* main.swift in Sources */,
+				079266502A7293B400DE7E10 /* loan.swift in Sources */,
+				079266542A72994800DE7E10 /* test file.swift in Sources */,
+				079266522A7293B400DE7E10 /* wallet.swift in Sources */,
 				B8FDC6322A71594A008FD9EE /* homeMenu.swift in Sources */,
+				D857EEE92A729630000B235E /* printMenuList.swift in Sources */,
+				D857EEF02A729630000B235E /* Ham.swift in Sources */,
+				D857EEF32A729630000B235E /* Turkey.swift in Sources */,
+				D857EEF52A729630000B235E /* Tuna.swift in Sources */,
 				B8FDC63A2A7159A8008FD9EE /* cart.swift in Sources */,
+				272048042A728F95008776F6 /* cartClass.swift in Sources */,
 				B8FDC6342A71595F008FD9EE /* menuOrderPage.swift in Sources */,
+				D857EEEB2A729630000B235E /* menu-order.swift in Sources */,
+				D857EEEE2A729630000B235E /* hateIngredient.swift in Sources */,
+				272048052A728F95008776F6 /* cartFunc.swift in Sources */,
+				D857EEF22A729630000B235E /* EggMayo.swift in Sources */,
+				D857EEEC2A729630000B235E /* custom-order.swift in Sources */,
+				D857EEEF2A729630000B235E /* Meatball.swift in Sources */,
+				D857EEF12A729630000B235E /* Data.swift in Sources */,
+				D857EEEA2A729630000B235E /* runSubway11Order.swift in Sources */,
+				D857EEF62A729630000B235E /* BLT.swift in Sources */,
+				272048052A728F95008776F6 /* cartFunc.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
