@@ -7,27 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B892B2D52A71765900CA3600 /* albaMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = B892B2D42A71765900CA3600 /* albaMenu.swift */; };
-		B892B2D72A71766300CA3600 /* elevenLandPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B892B2D62A71766300CA3600 /* elevenLandPage.swift */; };
-		B892B2D92A71779300CA3600 /* typingAlbaPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B892B2D82A71779300CA3600 /* typingAlbaPage.swift */; };
-		B892B2DB2A71798D00CA3600 /* albaPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B892B2DA2A71798D00CA3600 /* albaPage.swift */; };
-		B892B2DD2A7179FD00CA3600 /* typingAlbaMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = B892B2DC2A7179FD00CA3600 /* typingAlbaMenu.swift */; };
-		B892B2E02A717B8F00CA3600 /* typingAlbaPlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = B892B2DF2A717B8F00CA3600 /* typingAlbaPlay.swift */; };
-		B892B2E22A717C3C00CA3600 /* elevenLandMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = B892B2E12A717C3C00CA3600 /* elevenLandMenu.swift */; };
-		B892B2E62A717C6F00CA3600 /* yabawiGamePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B892B2E52A717C6F00CA3600 /* yabawiGamePage.swift */; };
-		B892B2E82A717C7C00CA3600 /* yabawiGameMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = B892B2E72A717C7C00CA3600 /* yabawiGameMenu.swift */; };
-		B892B2EA2A717C8600CA3600 /* yabawiGamePlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = B892B2E92A717C8600CA3600 /* yabawiGamePlay.swift */; };
-		B892B2EC2A717C9100CA3600 /* diceGamePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B892B2EB2A717C9100CA3600 /* diceGamePage.swift */; };
-		B892B2EE2A717C9A00CA3600 /* diceGameMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = B892B2ED2A717C9A00CA3600 /* diceGameMenu.swift */; };
-		B892B2F02A717CA200CA3600 /* diceGamePlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = B892B2EF2A717CA200CA3600 /* diceGamePlay.swift */; };
-		B892B2F22A717DB300CA3600 /* bankMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = B892B2F12A717DB300CA3600 /* bankMenu.swift */; };
-		B892B2F42A717E3F00CA3600 /* homePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B892B2F32A717E3F00CA3600 /* homePage.swift */; };
 		B8FDC62B2A71590D008FD9EE /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8FDC62A2A71590D008FD9EE /* main.swift */; };
 		B8FDC6322A71594A008FD9EE /* homeMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8FDC6312A71594A008FD9EE /* homeMenu.swift */; };
 		B8FDC6342A71595F008FD9EE /* menuOrderPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8FDC6332A71595F008FD9EE /* menuOrderPage.swift */; };
 		B8FDC6362A71596D008FD9EE /* customOrderPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8FDC6352A71596D008FD9EE /* customOrderPage.swift */; };
 		B8FDC63A2A7159A8008FD9EE /* cart.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8FDC6392A7159A8008FD9EE /* cart.swift */; };
-		B8FDC63D2A7159EA008FD9EE /* bankPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8FDC63C2A7159EA008FD9EE /* bankPage.swift */; };
+		B8FDC63D2A7159EA008FD9EE /* bank.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8FDC63C2A7159EA008FD9EE /* bank.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -43,28 +28,13 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		B892B2D42A71765900CA3600 /* albaMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = albaMenu.swift; sourceTree = "<group>"; };
-		B892B2D62A71766300CA3600 /* elevenLandPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = elevenLandPage.swift; sourceTree = "<group>"; };
-		B892B2D82A71779300CA3600 /* typingAlbaPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = typingAlbaPage.swift; sourceTree = "<group>"; };
-		B892B2DA2A71798D00CA3600 /* albaPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = albaPage.swift; sourceTree = "<group>"; };
-		B892B2DC2A7179FD00CA3600 /* typingAlbaMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = typingAlbaMenu.swift; sourceTree = "<group>"; };
-		B892B2DF2A717B8F00CA3600 /* typingAlbaPlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = typingAlbaPlay.swift; sourceTree = "<group>"; };
-		B892B2E12A717C3C00CA3600 /* elevenLandMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = elevenLandMenu.swift; sourceTree = "<group>"; };
-		B892B2E52A717C6F00CA3600 /* yabawiGamePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = yabawiGamePage.swift; sourceTree = "<group>"; };
-		B892B2E72A717C7C00CA3600 /* yabawiGameMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = yabawiGameMenu.swift; sourceTree = "<group>"; };
-		B892B2E92A717C8600CA3600 /* yabawiGamePlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = yabawiGamePlay.swift; sourceTree = "<group>"; };
-		B892B2EB2A717C9100CA3600 /* diceGamePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = diceGamePage.swift; sourceTree = "<group>"; };
-		B892B2ED2A717C9A00CA3600 /* diceGameMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = diceGameMenu.swift; sourceTree = "<group>"; };
-		B892B2EF2A717CA200CA3600 /* diceGamePlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = diceGamePlay.swift; sourceTree = "<group>"; };
-		B892B2F12A717DB300CA3600 /* bankMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bankMenu.swift; sourceTree = "<group>"; };
-		B892B2F32A717E3F00CA3600 /* homePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = homePage.swift; sourceTree = "<group>"; };
 		B8FDC6272A71590D008FD9EE /* elevenProject */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = elevenProject; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8FDC62A2A71590D008FD9EE /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		B8FDC6312A71594A008FD9EE /* homeMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = homeMenu.swift; sourceTree = "<group>"; };
 		B8FDC6332A71595F008FD9EE /* menuOrderPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = menuOrderPage.swift; sourceTree = "<group>"; };
 		B8FDC6352A71596D008FD9EE /* customOrderPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = customOrderPage.swift; sourceTree = "<group>"; };
 		B8FDC6392A7159A8008FD9EE /* cart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cart.swift; sourceTree = "<group>"; };
-		B8FDC63C2A7159EA008FD9EE /* bankPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bankPage.swift; sourceTree = "<group>"; };
+		B8FDC63C2A7159EA008FD9EE /* bank.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bank.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,57 +48,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		B892B2D22A71762500CA3600 /* Alba */ = {
-			isa = PBXGroup;
-			children = (
-				B892B2DA2A71798D00CA3600 /* albaPage.swift */,
-				B892B2D42A71765900CA3600 /* albaMenu.swift */,
-				B892B2DE2A717B0700CA3600 /* TypingAlba */,
-			);
-			path = Alba;
-			sourceTree = "<group>";
-		};
-		B892B2D32A71763800CA3600 /* ElevenLand */ = {
-			isa = PBXGroup;
-			children = (
-				B892B2D62A71766300CA3600 /* elevenLandPage.swift */,
-				B892B2E12A717C3C00CA3600 /* elevenLandMenu.swift */,
-				B892B2E42A717C4D00CA3600 /* Yabawi */,
-				B892B2E32A717C4000CA3600 /* Dice */,
-			);
-			path = ElevenLand;
-			sourceTree = "<group>";
-		};
-		B892B2DE2A717B0700CA3600 /* TypingAlba */ = {
-			isa = PBXGroup;
-			children = (
-				B892B2D82A71779300CA3600 /* typingAlbaPage.swift */,
-				B892B2DC2A7179FD00CA3600 /* typingAlbaMenu.swift */,
-				B892B2DF2A717B8F00CA3600 /* typingAlbaPlay.swift */,
-			);
-			path = TypingAlba;
-			sourceTree = "<group>";
-		};
-		B892B2E32A717C4000CA3600 /* Dice */ = {
-			isa = PBXGroup;
-			children = (
-				B892B2EB2A717C9100CA3600 /* diceGamePage.swift */,
-				B892B2ED2A717C9A00CA3600 /* diceGameMenu.swift */,
-				B892B2EF2A717CA200CA3600 /* diceGamePlay.swift */,
-			);
-			path = Dice;
-			sourceTree = "<group>";
-		};
-		B892B2E42A717C4D00CA3600 /* Yabawi */ = {
-			isa = PBXGroup;
-			children = (
-				B892B2E52A717C6F00CA3600 /* yabawiGamePage.swift */,
-				B892B2E72A717C7C00CA3600 /* yabawiGameMenu.swift */,
-				B892B2E92A717C8600CA3600 /* yabawiGamePlay.swift */,
-			);
-			path = Yabawi;
-			sourceTree = "<group>";
-		};
 		B8FDC61E2A71590D008FD9EE = {
 			isa = PBXGroup;
 			children = (
@@ -149,7 +68,6 @@
 			isa = PBXGroup;
 			children = (
 				B8FDC62A2A71590D008FD9EE /* main.swift */,
-				B892B2F32A717E3F00CA3600 /* homePage.swift */,
 				B8FDC6312A71594A008FD9EE /* homeMenu.swift */,
 				B8FDC6372A715974008FD9EE /* OrderPage */,
 				B8FDC6382A715989008FD9EE /* CartPage */,
@@ -179,8 +97,8 @@
 			isa = PBXGroup;
 			children = (
 				B8FDC63E2A715A01008FD9EE /* Bank */,
-				B892B2D22A71762500CA3600 /* Alba */,
-				B892B2D32A71763800CA3600 /* ElevenLand */,
+				B8FDC6402A715A52008FD9EE /* Alba */,
+				B8FDC63F2A715A1D008FD9EE /* Casino */,
 			);
 			path = walt;
 			sourceTree = "<group>";
@@ -188,10 +106,23 @@
 		B8FDC63E2A715A01008FD9EE /* Bank */ = {
 			isa = PBXGroup;
 			children = (
-				B8FDC63C2A7159EA008FD9EE /* bankPage.swift */,
-				B892B2F12A717DB300CA3600 /* bankMenu.swift */,
+				B8FDC63C2A7159EA008FD9EE /* bank.swift */,
 			);
 			path = Bank;
+			sourceTree = "<group>";
+		};
+		B8FDC63F2A715A1D008FD9EE /* Casino */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Casino;
+			sourceTree = "<group>";
+		};
+		B8FDC6402A715A52008FD9EE /* Alba */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Alba;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -252,27 +183,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B892B2E02A717B8F00CA3600 /* typingAlbaPlay.swift in Sources */,
-				B892B2D92A71779300CA3600 /* typingAlbaPage.swift in Sources */,
-				B8FDC63D2A7159EA008FD9EE /* bankPage.swift in Sources */,
-				B892B2EC2A717C9100CA3600 /* diceGamePage.swift in Sources */,
+				B8FDC63D2A7159EA008FD9EE /* bank.swift in Sources */,
 				B8FDC6362A71596D008FD9EE /* customOrderPage.swift in Sources */,
-				B892B2D72A71766300CA3600 /* elevenLandPage.swift in Sources */,
-				B892B2F42A717E3F00CA3600 /* homePage.swift in Sources */,
 				B8FDC62B2A71590D008FD9EE /* main.swift in Sources */,
 				B8FDC6322A71594A008FD9EE /* homeMenu.swift in Sources */,
-				B892B2DB2A71798D00CA3600 /* albaPage.swift in Sources */,
-				B892B2E82A717C7C00CA3600 /* yabawiGameMenu.swift in Sources */,
-				B892B2F02A717CA200CA3600 /* diceGamePlay.swift in Sources */,
 				B8FDC63A2A7159A8008FD9EE /* cart.swift in Sources */,
-				B892B2EE2A717C9A00CA3600 /* diceGameMenu.swift in Sources */,
 				B8FDC6342A71595F008FD9EE /* menuOrderPage.swift in Sources */,
-				B892B2DD2A7179FD00CA3600 /* typingAlbaMenu.swift in Sources */,
-				B892B2EA2A717C8600CA3600 /* yabawiGamePlay.swift in Sources */,
-				B892B2E22A717C3C00CA3600 /* elevenLandMenu.swift in Sources */,
-				B892B2D52A71765900CA3600 /* albaMenu.swift in Sources */,
-				B892B2F22A717DB300CA3600 /* bankMenu.swift in Sources */,
-				B892B2E62A717C6F00CA3600 /* yabawiGamePage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -396,7 +312,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 785X8Q9TA9;
 				ENABLE_HARDENED_RUNTIME = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -407,7 +323,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 785X8Q9TA9;
 				ENABLE_HARDENED_RUNTIME = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
