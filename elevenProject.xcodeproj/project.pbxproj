@@ -32,7 +32,6 @@
 		B8FDC6342A71595F008FD9EE /* menuOrderPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8FDC6332A71595F008FD9EE /* menuOrderPage.swift */; };
 		B8FDC6362A71596D008FD9EE /* customOrderPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8FDC6352A71596D008FD9EE /* customOrderPage.swift */; };
 		B8FDC63A2A7159A8008FD9EE /* cart.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8FDC6392A7159A8008FD9EE /* cart.swift */; };
-		B8FDC63D2A7159EA008FD9EE /* bank.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8FDC63C2A7159EA008FD9EE /* bank.swift */; };
 		D857EEE92A729630000B235E /* printMenuList.swift in Sources */ = {isa = PBXBuildFile; fileRef = D857EED52A729630000B235E /* printMenuList.swift */; };
 		D857EEEA2A729630000B235E /* runSubway11Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = D857EED62A729630000B235E /* runSubway11Order.swift */; };
 		D857EEEB2A729630000B235E /* menu-order.swift in Sources */ = {isa = PBXBuildFile; fileRef = D857EED82A729630000B235E /* menu-order.swift */; };
@@ -89,7 +88,6 @@
 		B8FDC6332A71595F008FD9EE /* menuOrderPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = menuOrderPage.swift; sourceTree = "<group>"; };
 		B8FDC6352A71596D008FD9EE /* customOrderPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = customOrderPage.swift; sourceTree = "<group>"; };
 		B8FDC6392A7159A8008FD9EE /* cart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cart.swift; sourceTree = "<group>"; };
-		B8FDC63C2A7159EA008FD9EE /* bank.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bank.swift; sourceTree = "<group>"; };
 		D857EED52A729630000B235E /* printMenuList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = printMenuList.swift; sourceTree = "<group>"; };
 		D857EED62A729630000B235E /* runSubway11Order.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = runSubway11Order.swift; sourceTree = "<group>"; };
 		D857EED82A729630000B235E /* menu-order.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "menu-order.swift"; sourceTree = "<group>"; };
@@ -130,9 +128,9 @@
 		B823BCB52A729FA1008094F1 /* Alba */ = {
 			isa = PBXGroup;
 			children = (
-				B823BCB62A729FA1008094F1 /* TypingAlba */,
 				B823BCBA2A729FA1008094F1 /* albaMenu.swift */,
 				B823BCBB2A729FA1008094F1 /* albaPage.swift */,
+				B823BCB62A729FA1008094F1 /* TypingAlba */,
 			);
 			name = Alba;
 			path = Casino/Alba;
@@ -152,9 +150,9 @@
 			isa = PBXGroup;
 			children = (
 				B823BCBD2A729FA1008094F1 /* elevenLandMenu.swift */,
+				B823BCC62A729FA1008094F1 /* elevenLandPage.swift */,
 				B823BCBE2A729FA1008094F1 /* Yabawi */,
 				B823BCC22A729FA1008094F1 /* Dice */,
-				B823BCC62A729FA1008094F1 /* elevenLandPage.swift */,
 			);
 			path = ElevenLand;
 			sourceTree = "<group>";
@@ -234,6 +232,7 @@
 		B8FDC63B2A7159B1008FD9EE /* walt */ = {
 			isa = PBXGroup;
 			children = (
+				0792664C2A7293B400DE7E10 /* 지갑만들기 */,
 				B8FDC63E2A715A01008FD9EE /* Bank */,
 				B823BCB52A729FA1008094F1 /* Alba */,
 				B823BCBC2A729FA1008094F1 /* ElevenLand */,
@@ -244,8 +243,6 @@
 		B8FDC63E2A715A01008FD9EE /* Bank */ = {
 			isa = PBXGroup;
 			children = (
-				0792664C2A7293B400DE7E10 /* 지갑만들기 */,
-				B8FDC63C2A7159EA008FD9EE /* bank.swift */,
 				B823BCB12A729F93008094F1 /* bankMenu.swift */,
 				B823BCB22A729F93008094F1 /* bankPage.swift */,
 			);
@@ -354,7 +351,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				D857EEF82A729630000B235E /* Wallet.swift in Sources */,
-				B8FDC63D2A7159EA008FD9EE /* bank.swift in Sources */,
 				B823BCCC2A729FA1008094F1 /* elevenLandMenu.swift in Sources */,
 				B8FDC6362A71596D008FD9EE /* customOrderPage.swift in Sources */,
 				B823BCCD2A729FA1008094F1 /* yabawiGamePlay.swift in Sources */,
