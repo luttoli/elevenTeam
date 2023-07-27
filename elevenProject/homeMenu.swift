@@ -2,6 +2,7 @@ import Foundation
 
 func appStart() {
     homeMenu()
+    
 }
 
 //홈 메뉴 시작 타이틀
@@ -37,7 +38,9 @@ func homeMenu() {
         selectCartMenu()
     case 3:
         print(" -> 3번 '은행'를 선택하셨습니다.")
-        bank()
+        mainWallet()
+        loan()
+
     case 4:
         print(" -> 4번 '프로그램 종료'을 선택하셨습니다.")
         print("--------------------------------------------------")
