@@ -8,16 +8,14 @@ func selecthomeMenu() {
     
     switch selectMenu {
     case 1:
-        print(" -> 1번 '주문 메뉴'를 선택하셨습니다.")
+        print(" -> 1번 '서브웨이가기'를 선택하셨습니다.")
         selectMenuList()
     case 2:
         print(" -> 2번 '장바구니'를 선택하셨습니다.")
         selectCartMenu()
     case 3:
-        print(" -> 3번 '은행'를 선택하셨습니다.")
-        mainWallet()
-        loan()
-
+        print(" -> 3번 '은행'을 선택하셨습니다.")
+        selectbankMenu()
     case 4:
         print(" -> 4번 '프로그램 종료'을 선택하셨습니다.")
         print("--------------------------------------------------")

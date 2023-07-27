@@ -19,14 +19,14 @@ func typingLv1Start() {
     print(typingLv1)
     let typingAlba = readLine()
     if typingLv1 == typingAlba {
-        myWalt += typingLv1Reward
+        wallet.money += typingLv1Reward
         print("\n -> 성공했습니다. 알바비로 \(typingLv1Reward)원을 드립니다.")
-        print("\n -> 현재 내 잔고: \(myWalt)원")
+        print("\n -> 현재 내 잔고: \(wallet.money)원")
         selecttypingMenu()
     } else {
-        myWalt += 0
+        wallet.money += 0
         print("\n -> 이렇게 일하면 돈을 받을 수 없습니다...")
-        print("\n -> 현재 내 잔고: \(myWalt)원")
+        print("\n -> 현재 내 잔고: \(wallet.money)원")
         selecttypingMenu()
     }
 }
@@ -38,14 +38,14 @@ func typingLv2Start() {
     print(typingLv2)
     let typingAlba = readLine()
     if typingLv2 == typingAlba {
-        myWalt += typingLv2Reward
+        wallet.money += typingLv2Reward
         print("\n -> 성공했습니다. 알바비로 \(typingLv2Reward)원을 드립니다.")
-        print("\n -> 현재 내 잔고: \(myWalt)원")
+        print("\n -> 현재 내 잔고: \(wallet.money)원")
         selecttypingMenu()
     } else {
-        myWalt += 0
+        wallet.money += 0
         print("\n 이렇게 일하면 돈을 받을 수 없습니다...")
-        print("\n 현재 내 잔고: \(myWalt)원")
+        print("\n 현재 내 잔고: \(wallet.money)원")
         selecttypingMenu()
     }
 }
@@ -57,14 +57,14 @@ func typingLv3Start() {
     print(typingLv3)
     let typingAlba = readLine()
     if typingLv3 == typingAlba {
-        myWalt += typingLv3Reward
+        wallet.money += typingLv3Reward
         print("\n -> 성공했습니다. 알바비로 \(typingLv3Reward)원을 드립니다.")
-        print("\n -> 현재 내 잔고: \(myWalt)원")
+        print("\n -> 현재 내 잔고: \(wallet.money)원")
         selecttypingMenu()
     } else {
-        myWalt += 0
+        wallet.money += 0
         print("\n -> 이렇게 일하면 돈을 받을 수 없습니다...")
-        print("\n -> 현재 내 잔고: \(myWalt)원")
+        print("\n -> 현재 내 잔고: \(wallet.money)원")
         selecttypingMenu()
     }
 }

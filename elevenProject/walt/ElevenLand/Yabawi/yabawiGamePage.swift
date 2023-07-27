@@ -17,6 +17,6 @@ func startYabawiMenu(title: String, subtitle: String, menu: Array<String>) {
         print(" \(count). \(i)")
         count += 1
     }
-    print("\n 현재 내 잔고: \(myWalt)원")
+    print("\n 현재 내 잔고: \(wallet.money)원")
     print("--------------------------------------------------")
 }

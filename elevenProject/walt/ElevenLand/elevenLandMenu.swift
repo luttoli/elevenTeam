@@ -13,7 +13,7 @@ func selectelevenlandMenu() {
         selectDiceGame()
     case 3:
         print(" -> 3번 '이전 화면으로 이동'을 선택하셨습니다.")
-        selectelevenlandMenu()
+        selectbankMenu()
     default:
         print(" -> 잘못 입력하셨습니다. 다시 입력해주세요.")
         selectelevenlandMenu()

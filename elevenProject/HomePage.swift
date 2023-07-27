@@ -6,10 +6,10 @@ func appStart() {
 }
 
 //홈 메뉴 시작 타이틀
-var homeMenuTitle: String = "너 뭐할래\n"
+var homeMenuTitle: String = "안녕하세요. 무엇을 하시겠습니까?\n"
 
 //홈 메뉴
-var homeMenuList: [String] = ["주문 메뉴", "장바구니", "은행", "프로그램 종료"]
+var homeMenuList: [String] = ["서브웨이가기", "장바구니", "은행", "프로그램 종료"]
 
 //홈 메뉴 출력
 func startHomeMenu(title: String, menu: Array<String>) {
