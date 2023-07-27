@@ -34,7 +34,7 @@ func homeMenu() {
         menuOrder()
     case 2:
         print(" -> 2번 '장바구니'를 선택하셨습니다.")
-        cartMenu()
+        selectCartMenu()
     case 3:
         print(" -> 3번 '은행'를 선택하셨습니다.")
         bank()
