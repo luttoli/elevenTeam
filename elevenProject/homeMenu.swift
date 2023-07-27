@@ -1,7 +1,29 @@
 import Foundation
 
+func appStart() {
+    homeMenu()
+}
+
+//홈 메뉴 시작 타이틀
+var homeMenuTitle: String = "너 뭐할래"
+
+//홈 메뉴
+var homeMenuList: [String] = ["주문 메뉴", "장바구니", "은행", "프로그램 종료"]
+
+//홈 메뉴 출력
+func startHomeMenu(title: String, menu: Array<String>) {
+    print("--------------------------------------------------")
+    print(title)
+    var count = 1
+    for i in menu {
+        print(" \(count). \(i)")
+        count += 1
+    }
+    print("--------------------------------------------------")
+}
+
 //홈 메뉴 선택
-func selecthomeMenu() {
+func homeMenu() {
     startHomeMenu(title: homeMenuTitle, menu: homeMenuList)
     
     let selectMenu = Int(readLine()!)
@@ -15,12 +37,12 @@ func selecthomeMenu() {
         cartMenu()
     case 3:
         print(" -> 3번 '은행'를 선택하셨습니다.")
-        selectbankMenu()
+        bank()
     case 4:
         print(" -> 4번 '프로그램 종료'을 선택하셨습니다.")
         print("--------------------------------------------------")
     default:
         print(" -> 잘못 입력하셨습니다. 다시 입력해주세요.")
-        selecthomeMenu()
+        homeMenu()
     }
 }
