@@ -34,11 +34,6 @@ func printIngredientList(_ list:[String], OX:[Character]){
         print("  ",i+1, list[i], OX[i])
     }
     
-//
-//    for i in list {
-//        index += 1
-//        print("  ", index, i, OX)
-//    }
     print("   0 커스텀 완료하기")
     print("--------------------- \n" )
     
