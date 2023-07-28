@@ -11,7 +11,7 @@ import Foundation
 
 
 // 기본 메뉴 리스트
-var menuList: [SubwaySandwitch] = [ 
+let menuList: [SubwaySandwitch] = [
     EggMayo("에그마요", 4300),
     BLT("비엘티", 5100),
     Tuna("참치", 4800),

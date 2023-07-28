@@ -9,5 +9,5 @@ import Foundation
 
 class EggMayo: SubwaySandwitch{
     
-    var uniqueIngredient : [String] = ["에그마요", "치즈"]
+    var uniqueIngredient : [String] = ["에그마요", "치즈", "치즈엑스트라"]
 }

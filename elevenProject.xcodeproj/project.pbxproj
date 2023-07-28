@@ -13,6 +13,7 @@
 		272048042A728F95008776F6 /* cartClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 272048022A728F95008776F6 /* cartClass.swift */; };
 		272048052A728F95008776F6 /* cartFunc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 272048032A728F95008776F6 /* cartFunc.swift */; };
 		27924EE32A72AD6500FD07F4 /* custom-order-print.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27924EE22A72AD6500FD07F4 /* custom-order-print.swift */; };
+		27924EE92A7350F800FD07F4 /* printOxList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27924EE82A7350F800FD07F4 /* printOxList.swift */; };
 		B823BCB32A729F94008094F1 /* bankMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = B823BCB12A729F93008094F1 /* bankMenu.swift */; };
 		B823BCB42A729F94008094F1 /* bankPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B823BCB22A729F93008094F1 /* bankPage.swift */; };
 		B823BCC72A729FA1008094F1 /* typingAlbaPlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = B823BCB72A729FA1008094F1 /* typingAlbaPlay.swift */; };
@@ -69,6 +70,7 @@
 		272048022A728F95008776F6 /* cartClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = cartClass.swift; sourceTree = "<group>"; };
 		272048032A728F95008776F6 /* cartFunc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = cartFunc.swift; sourceTree = "<group>"; };
 		27924EE22A72AD6500FD07F4 /* custom-order-print.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "custom-order-print.swift"; sourceTree = "<group>"; };
+		27924EE82A7350F800FD07F4 /* printOxList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = printOxList.swift; sourceTree = "<group>"; };
 		B823BCB12A729F93008094F1 /* bankMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = bankMenu.swift; sourceTree = "<group>"; };
 		B823BCB22A729F93008094F1 /* bankPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = bankPage.swift; sourceTree = "<group>"; };
 		B823BCB72A729FA1008094F1 /* typingAlbaPlay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = typingAlbaPlay.swift; sourceTree = "<group>"; };
@@ -275,6 +277,7 @@
 			children = (
 				D857EEDA2A729630000B235E /* custom-order.swift */,
 				27924EE22A72AD6500FD07F4 /* custom-order-print.swift */,
+				27924EE82A7350F800FD07F4 /* printOxList.swift */,
 			);
 			path = "custom-order-page";
 			sourceTree = "<group>";
@@ -389,6 +392,7 @@
 				272048052A728F95008776F6 /* cartFunc.swift in Sources */,
 				D857EEF22A729630000B235E /* EggMayo.swift in Sources */,
 				B823BCD02A729FA1008094F1 /* diceGameMenu.swift in Sources */,
+				27924EE92A7350F800FD07F4 /* printOxList.swift in Sources */,
 				D857EEEC2A729630000B235E /* custom-order.swift in Sources */,
 				D857EEEF2A729630000B235E /* Meatball.swift in Sources */,
 				D857EEF12A729630000B235E /* Data.swift in Sources */,

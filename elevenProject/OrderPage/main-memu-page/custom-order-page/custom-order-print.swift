@@ -28,12 +28,19 @@ import Foundation
 //}
 
 
-func printIngredientList(_ list:[String], OX:Character){
+func printIngredientList(_ list:[String], OX:[Character]){
     var index = 0
-    for i in list {
-        index += 1
-        print("  ", index, i, OX)
+    for i in 0...list.count-1 {
+        print("  ",i+1, list[i], OX[i])
     }
+    
+//
+//    for i in list {
+//        index += 1
+//        print("  ", index, i, OX)
+//    }
     print("   0 커스텀 완료하기")
     print("--------------------- \n" )
+    
+
 }
