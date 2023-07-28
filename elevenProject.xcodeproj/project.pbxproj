@@ -38,7 +38,6 @@
 		D857EEEA2A729630000B235E /* runSubway11Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = D857EED62A729630000B235E /* runSubway11Order.swift */; };
 		D857EEEB2A729630000B235E /* menu-order.swift in Sources */ = {isa = PBXBuildFile; fileRef = D857EED82A729630000B235E /* menu-order.swift */; };
 		D857EEEC2A729630000B235E /* custom-order.swift in Sources */ = {isa = PBXBuildFile; fileRef = D857EEDA2A729630000B235E /* custom-order.swift */; };
-		D857EEEE2A729630000B235E /* hateIngredient.swift in Sources */ = {isa = PBXBuildFile; fileRef = D857EEDC2A729630000B235E /* hateIngredient.swift */; };
 		D857EEEF2A729630000B235E /* Meatball.swift in Sources */ = {isa = PBXBuildFile; fileRef = D857EEDE2A729630000B235E /* Meatball.swift */; };
 		D857EEF02A729630000B235E /* Ham.swift in Sources */ = {isa = PBXBuildFile; fileRef = D857EEDF2A729630000B235E /* Ham.swift */; };
 		D857EEF12A729630000B235E /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = D857EEE02A729630000B235E /* Data.swift */; };
@@ -95,7 +94,6 @@
 		D857EED62A729630000B235E /* runSubway11Order.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = runSubway11Order.swift; sourceTree = "<group>"; };
 		D857EED82A729630000B235E /* menu-order.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "menu-order.swift"; sourceTree = "<group>"; };
 		D857EEDA2A729630000B235E /* custom-order.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "custom-order.swift"; sourceTree = "<group>"; };
-		D857EEDC2A729630000B235E /* hateIngredient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = hateIngredient.swift; sourceTree = "<group>"; };
 		D857EEDE2A729630000B235E /* Meatball.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Meatball.swift; sourceTree = "<group>"; };
 		D857EEDF2A729630000B235E /* Ham.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Ham.swift; sourceTree = "<group>"; };
 		D857EEE02A729630000B235E /* Data.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
@@ -213,7 +211,6 @@
 			children = (
 				D857EEDD2A729630000B235E /* Class */,
 				D857EED42A729630000B235E /* func */,
-				D857EEDC2A729630000B235E /* hateIngredient.swift */,
 				D857EED72A729630000B235E /* main-memu-page */,
 				B8FDC6332A71595F008FD9EE /* menuOrderPage.swift */,
 				B8FDC6352A71596D008FD9EE /* customOrderPage.swift */,
@@ -384,7 +381,6 @@
 				B8FDC6342A71595F008FD9EE /* menuOrderPage.swift in Sources */,
 				D857EEEB2A729630000B235E /* menu-order.swift in Sources */,
 				B823BCD12A729FA1008094F1 /* diceGamePage.swift in Sources */,
-				D857EEEE2A729630000B235E /* hateIngredient.swift in Sources */,
 				272048052A728F95008776F6 /* cartFunc.swift in Sources */,
 				D857EEF22A729630000B235E /* EggMayo.swift in Sources */,
 				B823BCD02A729FA1008094F1 /* diceGameMenu.swift in Sources */,
