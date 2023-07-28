@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		079266502A7293B400DE7E10 /* loan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0792664D2A7293B400DE7E10 /* loan.swift */; };
 		079266522A7293B400DE7E10 /* wallet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0792664F2A7293B400DE7E10 /* wallet.swift */; };
+		07DF96992A7348470076EB1F /* inoutmoney.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07DF96982A7348470076EB1F /* inoutmoney.swift */; };
 		272048042A728F95008776F6 /* cartClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 272048022A728F95008776F6 /* cartClass.swift */; };
 		272048052A728F95008776F6 /* cartFunc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 272048032A728F95008776F6 /* cartFunc.swift */; };
 		27924EE32A72AD6500FD07F4 /* custom-order-print.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27924EE22A72AD6500FD07F4 /* custom-order-print.swift */; };
@@ -65,6 +66,7 @@
 /* Begin PBXFileReference section */
 		0792664D2A7293B400DE7E10 /* loan.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = loan.swift; sourceTree = "<group>"; };
 		0792664F2A7293B400DE7E10 /* wallet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = wallet.swift; sourceTree = "<group>"; };
+		07DF96982A7348470076EB1F /* inoutmoney.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = inoutmoney.swift; sourceTree = "<group>"; };
 		272048022A728F95008776F6 /* cartClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = cartClass.swift; sourceTree = "<group>"; };
 		272048032A728F95008776F6 /* cartFunc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = cartFunc.swift; sourceTree = "<group>"; };
 		27924EE22A72AD6500FD07F4 /* custom-order-print.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "custom-order-print.swift"; sourceTree = "<group>"; };
@@ -123,6 +125,7 @@
 			children = (
 				0792664D2A7293B400DE7E10 /* loan.swift */,
 				0792664F2A7293B400DE7E10 /* wallet.swift */,
+				07DF96982A7348470076EB1F /* inoutmoney.swift */,
 			);
 			path = "지갑만들기";
 			sourceTree = "<group>";
@@ -375,6 +378,7 @@
 				D857EEF52A729630000B235E /* Tuna.swift in Sources */,
 				B8FDC63A2A7159A8008FD9EE /* cart.swift in Sources */,
 				B823BCD22A729FA1008094F1 /* diceGamePlay.swift in Sources */,
+				07DF96992A7348470076EB1F /* inoutmoney.swift in Sources */,
 				B823BCC92A729FA1008094F1 /* typingAlbaPage.swift in Sources */,
 				B823BCCE2A729FA1008094F1 /* yabawiGameMenu.swift in Sources */,
 				B823BCD32A729FA1008094F1 /* elevenLandPage.swift in Sources */,
