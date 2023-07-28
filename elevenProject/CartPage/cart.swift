@@ -1,6 +1,6 @@
 import Foundation
 
-
+//카트 클래스 이니셜라이징
 var myCart = Cart()
 
 var title = "장바구니"
