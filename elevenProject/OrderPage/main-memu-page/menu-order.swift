@@ -7,7 +7,6 @@
 
 import Foundation
 
-var mycart = Cart()
 var wallet = Wallet()
 
 func selectMenuList() {
