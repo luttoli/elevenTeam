@@ -19,7 +19,7 @@ func printOxList(_ sandwich:SubwaySandwitch,_ list:[String]){
     if inputNumber == 0 {
         myCart.addMenu(sandwich)
         printMenuList()
-    }else if inputNumber > -1 && inputNumber < sandwich.ox.count{
+    }else if inputNumber > -1 && inputNumber <= sandwich.ox.count{
         
         if sandwich.ox[inputNumber-1] == "❌" {
             sandwich.ox[inputNumber-1] = "✅"
