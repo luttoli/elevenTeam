@@ -12,7 +12,7 @@
 func printCustomOrder (_ orderNum: Int) {
     
     print("--------------------------------------------------" )
-    print("--------------------------------------------------/n/n" )
+    print("--------------------------------------------------\n\n" )
     
     for i in myCart.cart {
         print("  [ Custom \(i.name) Ingredients ] \n")

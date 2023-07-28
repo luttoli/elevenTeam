@@ -28,7 +28,7 @@ class Cart { // 장바구니
             for i in myCart.cartList{
                 myCartNameList.append(i.name)
             }
-            startHomeMenu(title: "장바구니 \(text)", menu: myCartNameList)
+            startHomeMenu(title: "\n    [장바구니 \(text)]\n", menu: myCartNameList)
             
             if text == "조회"{
                 let inputNumber = Int(readLine() ?? "") ?? -1

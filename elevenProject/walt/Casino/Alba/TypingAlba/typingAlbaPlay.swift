@@ -14,25 +14,30 @@ extension String {
 //단계 시작 및 검수하는 함수
 func typingLv1Start() {
     print("--------------------------------------------------")
+    print("--------------------------------------------------\n")
     //랜덤으로 뽑은 문자열
     let typingLv1 = String.createRandomString(length: 3)
     print(typingLv1)
     let typingAlba = readLine()
     if typingLv1 == typingAlba {
         wallet.money += typingLv1Reward
-        print("\n -> 성공했습니다. 알바비로 \(typingLv1Reward)원을 드립니다.")
-        print("\n -> 현재 내 잔고: \(wallet.money)원")
+        print("\n      -> 성공했습니다. 알바비로 \(typingLv1Reward)원을 드립니다.")
+        print("\n      -> 현재 내 잔고: \(wallet.money)원")
         selecttypingMenu()
     } else {
         wallet.money += 0
-        print("\n -> 이렇게 일하면 돈을 받을 수 없습니다...")
-        print("\n -> 현재 내 잔고: \(wallet.money)원")
+        print("\n      -> 이렇게 일하면 돈을 받을 수 없습니다...")
+        print("\n      -> 현재 내 잔고: \(wallet.money)원")
         selecttypingMenu()
     }
+    print("\n--------------------------------------------------")
+    print("--------------------------------------------------\n")
 }
 
 func typingLv2Start() {
     print("--------------------------------------------------")
+    print("--------------------------------------------------\n")
+
     //랜덤으로 뽑은 문자열
     let typingLv2 = String.createRandomString(length: 6)
     print(typingLv2)
@@ -48,10 +53,14 @@ func typingLv2Start() {
         print("\n 현재 내 잔고: \(wallet.money)원")
         selecttypingMenu()
     }
+    print("\n--------------------------------------------------")
+    print("--------------------------------------------------\n")
 }
 
 func typingLv3Start() {
     print("--------------------------------------------------")
+    print("--------------------------------------------------\n")
+
     //랜덤으로 뽑은 문자열
     let typingLv3 = String.createRandomString(length: 10)
     print(typingLv3)
@@ -67,4 +76,6 @@ func typingLv3Start() {
         print("\n -> 현재 내 잔고: \(wallet.money)원")
         selecttypingMenu()
     }
+    print("\n--------------------------------------------------")
+    print("--------------------------------------------------\n")
 }

@@ -13,16 +13,17 @@ func printMenuList() {
     print("--------------------------------------------------\n\n")
 
     
-    print("  [ SUBWAY11 MENU ] \n")
+    print("     [ SUBWAY11 MENU ] \n")
     
     var sum = 0
     
     for i in menuList {
         sum += 1
-        print("      \(sum)  \(i.name)  \(i.price)")
+        print("      \(sum)  \(i.name)  \(i.price)\n")
     }
     print("\n      0  주문 끝내기\n")
+    print("\n--------------------------------------------------")
     print("--------------------------------------------------")
-    print("   내 잔고 : \(wallet.money)")
+    print("     내 잔고 : \(wallet.money)")
     runSubway11Order()
 }

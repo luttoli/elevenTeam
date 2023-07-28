@@ -6,13 +6,13 @@ func selectDiceGame() {
     let selectMenu = Int(readLine()!)
     switch selectMenu {
     case 1:
-        print(" -> 1번 '할래요'를 선택하셨습니다. 행운을 빕니다.")
+        print("     -> 1번 '할래요'를 선택하셨습니다. 행운을 빕니다.")
         dicePlay()
     case 2:
-        print(" -> 2번 '안할래요' 이전 화면으로 이동합니다.")
+        print("     -> 2번 '안할래요' 이전 화면으로 이동합니다.")
         selectelevenlandMenu()
     default:
-        print(" -> 잘못 입력하셨습니다. 다시 입력해주세요.")
+        print("     -> 잘못 입력하셨습니다. 다시 입력해주세요.")
         selectDiceGame()
     }
 }
