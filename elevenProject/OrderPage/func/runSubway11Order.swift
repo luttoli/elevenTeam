@@ -10,7 +10,7 @@ import Foundation
 func runSubway11Order () {
     
     
-    print("   입력해주세요 : ", terminator: "")
+    print("   선택해주세요 : ", terminator: "")
     if let input = readLine() {
         switch input {
         case "1":
