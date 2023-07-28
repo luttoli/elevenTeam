@@ -14,7 +14,7 @@ func selecthomeMenu() {
         print(" -> 2번 '장바구니'를 선택하셨습니다.")
         selectCartMenu()
     case 3:
-        print(" -> 3번 '은행'을 선택하셨습니다.")
+        print(" -> 3번 '돈'을 선택하셨습니다.")
         selectbankMenu()
     case 4:
         print(" -> 4번 '프로그램 종료'을 선택하셨습니다.")

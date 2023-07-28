@@ -30,12 +30,15 @@ import Foundation
 
 func printIngredientList(_ list:[String], OX:[Character]){
     var index = 0
+    
+    print("     커스텀 메뉴입니다\n")
     for i in 0...list.count-1 {
-        print("  ",i+1, list[i], OX[i])
+        print("     ", i+1," ", list[i], OX[i], "")
     }
     
-    print("   0 커스텀 완료하기")
-    print("--------------------- \n" )
+    print("\n      0   커스텀 완료하기")
+    print("\n\n--------------------------------------------------" )
+    print("--------------------------------------------------" )
     
 
 }

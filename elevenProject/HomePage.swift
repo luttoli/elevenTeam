@@ -9,7 +9,7 @@ func appStart() {
 var homeMenuTitle: String = "\n      🥪SUBWAY11🥪\n      메뉴를 골라주세요\n"
 
 //홈 메뉴
-var homeMenuList: [String] = ["메뉴 주문하기", "주문 내역 확인", "돈 만들기", "프로그램 종료"]
+var homeMenuList: [String] = ["메뉴 주문하기", "주문 내역 확인", "돈", "프로그램 종료"]
 
 //홈 메뉴 출력
 func startHomeMenu(title: String, menu: Array<String>) {

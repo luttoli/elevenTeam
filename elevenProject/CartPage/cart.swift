@@ -3,7 +3,7 @@ import Foundation
 //카트 클래스 이니셜라이징
 var myCart = Cart()
 
-var title = "장바구니"
+var title = "\n      [장바구니]\n"
 var printCartList:[String] = ["장바구니 조회","삭제","홈 메뉴로"]
 
 
