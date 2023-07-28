@@ -22,6 +22,7 @@ func printCustomOrder (_ orderNum: Int) {
     case 1 :
         let eggMayoSandwich = EggMayo("에그마요",4300)
         let eggMayoIngredient = eggMayoSandwich.defaultIngredient + eggMayoSandwich.uniqueIngredient
+        eggMayoSandwich.addedIngredient = eggMayoIngredient
         
         for _ in eggMayoIngredient {
             eggMayoSandwich.ox.append("✅")
