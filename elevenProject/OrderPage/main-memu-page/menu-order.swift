@@ -7,7 +7,7 @@
 
 import Foundation
 
-var wallet = Wallet()
+//var wallet = Wallet()
 
 func selectMenuList() {
     

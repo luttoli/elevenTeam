@@ -33,7 +33,8 @@ func printCustomOrder (_ orderNum: Int) {
     case 2 :
         let bltSandwich = BLT("비엘티", 5100)
         let bltIngredient = bltSandwich.defaultIngredient + bltSandwich.uniqueIngredient
-            
+        bltSandwich.addedIngredient = bltIngredient
+        
         for _ in bltIngredient {
             bltSandwich.ox.append("✅")
         }
@@ -43,7 +44,8 @@ func printCustomOrder (_ orderNum: Int) {
     case 3 :
         let tunaSandwich = Tuna("참치", 4800)
         let tunaIngredient = tunaSandwich.defaultIngredient + tunaSandwich.uniqueIngredient
-            
+        tunaSandwich.addedIngredient = tunaIngredient
+        
         for _ in tunaIngredient {
             tunaSandwich.ox.append("✅")
         }
@@ -53,7 +55,8 @@ func printCustomOrder (_ orderNum: Int) {
     case 4 :
         let meatballSandwich = Meatball("미트볼", 4800)
         let meatballIngredient = meatballSandwich.defaultIngredient + meatballSandwich.uniqueIngredient
-            
+        meatballSandwich.addedIngredient = meatballIngredient
+        
         for _ in meatballIngredient {
             meatballSandwich.ox.append("✅")
         }
@@ -64,7 +67,8 @@ func printCustomOrder (_ orderNum: Int) {
     case 5 :
         let turkeySandwich = Turkey("터키", 5300)
         let turkeyIngredient = turkeySandwich.defaultIngredient + turkeySandwich.uniqueIngredient
-            
+        turkeySandwich.addedIngredient = turkeyIngredient
+        
         for _ in turkeyIngredient {
             turkeySandwich.ox.append("✅")
         }
@@ -74,7 +78,8 @@ func printCustomOrder (_ orderNum: Int) {
     case 6 :
         let hamSandwich = Ham("햄", 5600)
         let hamIngredient = hamSandwich.defaultIngredient + hamSandwich.uniqueIngredient
-            
+        hamSandwich.addedIngredient = hamIngredient
+        
         for _ in hamIngredient {
             hamSandwich.ox.append("✅")
         }
