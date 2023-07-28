@@ -4,7 +4,7 @@ import Foundation
 
 class Cart { // 장바구니
     
-    var cartList:[SubwaySandwitch] = [] //임시방편임
+    var cartList:[SubwaySandwitch] = []
     
     var sandwichCart : [String] = []
     var ingredientCart : [String] = []
@@ -29,12 +29,29 @@ class Cart { // 장바구니
                 myCartNameList.append(i.name)
             }
             startHomeMenu(title: "장바구니 \(text)", menu: myCartNameList)
+            
+            if text == "조회"{
+                let inputNumber = Int(readLine() ?? "") ?? -1
+                
+                if inputNumber != -1 {
+                    print("--추가된 재료들--")
+                    for i in 0...self.cartList[inputNumber-1].addedIngredient.count-1 {
+                        if self.cartList[inputNumber-1].ox[i] == "✅" {
+                            print(self.cartList[inputNumber-1].addedIngredient[i])
+                        }
+                        
+                    }
+                    
+                }
+                
+            }
+            
+            
         }
     }
     
     func cartListInfo(){
         cartListPrint("조회")
-        readLine()
     }
     func cartListDelete(){
         cartListPrint("삭제")
